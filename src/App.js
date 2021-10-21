@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import InputForm from "./components/FormGitHubUser";
+
+/* function Clicker() {
+  const [counter, setCounter] = useState(0);
+
+  const updateCounter = () => {
+    setCounter((state) => state + 1);
+  }
+
+  return (
+    <button onClick={updateCounter}>Clicked {counter} time(s)</button>
+  )
+}
+
+ */
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <InputForm />
+      {/* <Clicker /> */}
     </div>
   );
 }
